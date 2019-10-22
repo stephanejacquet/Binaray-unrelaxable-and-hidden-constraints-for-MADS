@@ -1,0 +1,107 @@
+test
+BC BC BC BC PB PB PB PB PB PB PB OBJ 
+NOMAD - version 3.8.0 has been created by {
+	Charles Audet        - Ecole Polytechnique de Montreal
+	Sebastien Le Digabel - Ecole Polytechnique de Montreal
+	Christophe Tribes    - Ecole Polytechnique de Montreal
+} 
+
+The copyright of NOMAD - version 3.8.0 is owned by {
+	Sebastien Le Digabel - Ecole Polytechnique de Montreal
+	Christophe Tribes    - Ecole Polytechnique de Montreal
+} 
+
+NOMAD version 3 is a new version of NOMAD v1 and v2, it has been funded by AFOSR and Exxon Mobil.
+NOMAD v1 and v2 were created and developed by Mark Abramson, Charles Audet, Gilles Couture and John Dennis Jr., and were funded by AFOSR and Exxon Mobil.
+
+Download  : www.gerad.ca/nomad
+License   : '$NOMAD_HOME/src/lgpl.txt'
+User guide: '$NOMAD_HOME/doc/user_guide.pdf'
+Examples  : '$NOMAD_HOME/examples'
+Tools     : '$NOMAD_HOME/tools'
+
+Please report bugs to nomad@gerad.ca
+
+Seed: 0
+
+MADS run {
+
+	BBE	OBJ
+
+	   1	-1.0942600000e+07
+	   2	-1.8746800000e+07
+	  10	-2.1763500000e+07
+	  14	-2.4396300000e+07
+	  15	-2.4472800000e+07
+	  19	-2.8729700000e+07
+	  20	-3.1801300000e+07
+	  26	-3.1904200000e+07
+	  38	-3.2123400000e+07
+	  70	-3.2290100000e+07
+	 110	-3.2323600000e+07
+	 111	-3.2404700000e+07
+	 112	-3.2554300000e+07
+	 113	-3.2976600000e+07
+	 129	-3.3267000000e+07
+	 133	-3.3396100000e+07
+	 149	-3.3396700000e+07
+	 168	-3.3488000000e+07
+	 175	-3.3496800000e+07
+	 206	-3.3513100000e+07
+	 211	-3.3526300000e+07
+	 212	-3.3532000000e+07
+	 220	-3.3533800000e+07
+	 236	-3.3544500000e+07
+	 245	-3.3549700000e+07
+	 252	-3.3550600000e+07
+	 253	-3.3552500000e+07
+	 292	-3.3553900000e+07
+	 307	-3.3560300000e+07
+	 338	-3.3560500000e+07
+	 339	-3.3561100000e+07
+	 340	-3.3561600000e+07
+	 341	-3.3566700000e+07
+	 346	-3.3567300000e+07
+	 347	-3.3568000000e+07
+	 411	-3.4469400000e+07
+	 419	-3.4485000000e+07
+	 460	-3.4485300000e+07
+	 463	-3.4485400000e+07
+	 470	-3.4485700000e+07
+	 474	-3.4501000000e+07
+	 497	-3.4501600000e+07
+	 506	-3.4501800000e+07
+	 539	-3.4502400000e+07
+	 559	-3.4503100000e+07
+	 564	-3.4505000000e+07
+	 568	-3.4506200000e+07
+	 585	-3.4509000000e+07
+	 601	-3.4509100000e+07
+	 609	-3.4509200000e+07
+	 632	-3.4509900000e+07
+	 636	-3.4510000000e+07
+	 660	-3.4510200000e+07
+	 681	-3.4510300000e+07
+	 705	-3.4510500000e+07
+	 741	-3.4510600000e+07
+	 793	-3.4510900000e+07
+	 794	-3.4511500000e+07
+	 795	-3.4512800000e+07
+	 800	-3.4513000000e+07
+	 846	-3.4513300000e+07
+	 875	-3.4513400000e+07
+	 876	-3.4513800000e+07
+	 886	-3.4514100000e+07
+	 891	-3.4516400000e+07
+	 896	-3.4516700000e+07
+	 914	-3.4517900000e+07
+	 923	-3.4519600000e+07
+	 924	-3.4520200000e+07
+	 968	-3.4521300000e+07
+	1500	-3.4521300000e+07
+
+} end of run (max number of blackbox evaluations)
+
+blackbox evaluations                     : 1500
+best infeasible solution (min. violation): ( 79.97437541 77.09999873 99.29991031 0.3579934822 20.04999419 0.1998614406 0.2000086031 15.9500045 ) h=6.31708e-06 f=-16574000
+best feasible solution                   : ( 100 85.30873 63.04096 0.00034 0.1536856 100 14.98672 54.7680192 ) h=0 f=-34521300

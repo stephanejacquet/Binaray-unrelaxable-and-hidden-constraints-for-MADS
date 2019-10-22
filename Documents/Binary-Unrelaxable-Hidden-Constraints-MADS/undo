@@ -1,0 +1,17 @@
+#!/bin/bash
+
+for d in LOCKWOOD/*
+do
+    echo "rm $d/done.txt"
+    rm $d/done.txt
+    rm -r $d/NOMAD-3.8.0.1.0
+    rm -r $d/NOMAD-3.8.0.1.4
+    rm -r $d/NOMAD-3.8.0.1.5
+    rm -r $d/NOMAD-3.8.0.1.6
+    rm -r $d/NOMAD-3.8.0.1.7
+    rm -r $d/NOMAD-3.8.0.1.8
+    rm -r $d/NOMAD-3.8.0.1.9
+    rm -r $d/NOMAD-3.8.0.1.13
+
+done
+

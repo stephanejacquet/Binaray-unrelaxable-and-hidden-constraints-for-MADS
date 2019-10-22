@@ -1,0 +1,72 @@
+test
+BC BC BC BC PB PB PB PB PB PB PB OBJ 
+NOMAD - version 3.8.0 has been created by {
+	Charles Audet        - Ecole Polytechnique de Montreal
+	Sebastien Le Digabel - Ecole Polytechnique de Montreal
+	Christophe Tribes    - Ecole Polytechnique de Montreal
+} 
+
+The copyright of NOMAD - version 3.8.0 is owned by {
+	Sebastien Le Digabel - Ecole Polytechnique de Montreal
+	Christophe Tribes    - Ecole Polytechnique de Montreal
+} 
+
+NOMAD version 3 is a new version of NOMAD v1 and v2, it has been funded by AFOSR and Exxon Mobil.
+NOMAD v1 and v2 were created and developed by Mark Abramson, Charles Audet, Gilles Couture and John Dennis Jr., and were funded by AFOSR and Exxon Mobil.
+
+Download  : www.gerad.ca/nomad
+License   : '$NOMAD_HOME/src/lgpl.txt'
+User guide: '$NOMAD_HOME/doc/user_guide.pdf'
+Examples  : '$NOMAD_HOME/examples'
+Tools     : '$NOMAD_HOME/tools'
+
+Please report bugs to nomad@gerad.ca
+
+Seed: 0
+
+MADS run {
+
+	BBE	OBJ
+
+	   1	-1.0942600000e+07
+	   2	-1.8746800000e+07
+	  10	-2.1763500000e+07
+	  14	-2.4396300000e+07
+	  15	-2.4472800000e+07
+	  18	-2.8729700000e+07
+	  19	-3.1801300000e+07
+	  24	-3.1904200000e+07
+	  36	-3.2123400000e+07
+	  68	-3.2290100000e+07
+	 108	-3.2323600000e+07
+	 109	-3.2404700000e+07
+	 110	-3.2554300000e+07
+	 111	-3.2976600000e+07
+	 129	-3.3109300000e+07
+	 136	-3.3181500000e+07
+	 163	-3.3374000000e+07
+	 185	-3.3374500000e+07
+	 203	-3.3375900000e+07
+	 204	-3.3379400000e+07
+	 207	-3.3380400000e+07
+	 211	-3.3449000000e+07
+	 212	-3.3491900000e+07
+	 220	-3.3502100000e+07
+	 228	-3.3502500000e+07
+	 246	-3.3522600000e+07
+	 251	-3.3524500000e+07
+	 258	-3.3525400000e+07
+	 272	-3.3545900000e+07
+	 290	-3.3550300000e+07
+	 346	-3.3556600000e+07
+	 379	-3.3558100000e+07
+	 384	-3.3563500000e+07
+	 403	-3.3563700000e+07
+	 422	-3.3565300000e+07
+	1034	-3.3565300000e+07
+
+} end of run (mesh size reached NOMAD precision)
+
+blackbox evaluations                     : 1034
+best infeasible solution (min. violation): ( 80.00012016 76.80076419 99.99894844 0 19.99990161 0 0.0004092815027 15.00305148 ) h=3.59016e-05 f=-16355900
+best feasible solution                   : ( 100 98.211 69.974 0.106 0 100 47.752 54.571 ) h=0 f=-33565300
