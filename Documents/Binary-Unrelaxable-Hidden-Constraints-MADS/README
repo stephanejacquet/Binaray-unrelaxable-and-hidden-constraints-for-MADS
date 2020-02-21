@@ -1,13 +1,29 @@
 This is how to use the different scrpits and functions in order to compare diffents ways to handle binary, unrelaxable and hidden constraints with MADS. This work has been done by Charles AUDET (Polytechnique Montréal), Gilles CAPOROSSI (HEC Montréal) and Stéphane JACQUET (UQAC).
+The folders currently have all the tests done. If you want to only produce the data profiles, download all the files and folders and go to step 5.
 
-1. The folders currently have all the tests done. If you want to only produce the data profiles, go to step 6.
+1. If you want to start from the beginning, use the script ''undo'' on STYRENE, MDO and LOCKWOOD. Empty ''Problems90''
 
-2. If you want to start from scratch, use the script ''undo'' on STYRENE, MDO and LOCKWOOD. Empty ''Problems90''
+2.a) To run all STYRENE problems, open ''run''. Replace line 3 with for d in SSTYRENE/*. Execute ''./run''in a terminal.
+2.b) To run all MDO problems, open ''run''. Replace line 3 with for d in MDO/*. Execute ''./run''in a terminal.
+2.c) To run all LOCKWOOD problems, execute ''./runLockwood'' in a terminal.
 
-3. For STYRENE and MDO, use ''run'' with the correct folder.
+The folders STYRENE, MDO and LOCKWOOD now contains all the 90 problems with all the versions of Nomad that were implemented.
 
-4. For LOCKWOOD, use ''runLockwood''.
+3.a) All folders from STYRENE are named from 1 to 30. You do not need to rename them.
+3.b) Rename the folders in MDO from 31 to 60.
+3.c) Rename the folders in LOCKWOOD from 61 to 90.
 
-5. Put all the problems in ''problems90'' and name the problems of STYRENE from 1 to 30, the ones from MDO from 31 to 60 and the ones from LOCKWOOD from 61 to 90.
+4. Put all the folders from STYRENE, MDO and LOCKWOOD.
 
-6. Use DP_PP.m with MATLAB. Choose n, the number of solvers (normally 90) and m=number of solvers (the number of solvers you want to compare). Choose the solvers (versions of MADS) below. Choose the precisions in tau. Beware of the legend in data and performance profiles, they are not updated automatically. This must be done by changing legends in DP_PP.m or manually.
+5. Open DP_PP.m in MATLAB. Choose different precisions in the ''tau'' variable. Choose in ''solvers'' the different versions to compare (find below which version belongs to which way to calculate tilde(h)). Set n to 90. Set m to the number of solvers.
+Beware of the legend in data and performance profiles, they are not updated automatically. This must be done by changing ''legends'' in DP_PP.m or manually.
+
+List of the different versions and the way they calculate tilde(h) (notations correspond to the following technical report https://www.gerad.ca/fr/papers/G-2019-76):
+NOMAD-3.8.0.1.0->tilde(h) (default version of NOMAD 3.8.0)
+NOMAD-3.8.0.1.4->tilde(h)_1
+NOMAD-3.8.0.1.5->tilde(h)_2
+NOMAD-3.8.0.1.6->tilde(h)_3
+NOMAD-3.8.0.1.7->tilde(h)_4
+NOMAD-3.8.0.1.8->tilde(h)_5
+NOMAD-3.8.0.1.9->tilde(h)_6
+NOMAD-3.8.0.1.13->tilde(h)_7
